@@ -1,0 +1,20 @@
+{
+  "product": "EnterpriseToolkit-MultiUnit",
+  "channel": "stable",
+  "version": "2.0.2",
+  "minimum_version": "2.0.1",
+  "mandatory": false,
+  "package_type": "binary-delta",
+  "package_url": "https://raw.githubusercontent.com/danapster/SCC-IT-Toolkit-Updates/main/Patches/IT-Toolkit.patch",
+  "file_name": "IT-Toolkit.patch",
+  "sha256": "a2b3eb0e320571ebf467317e92fa4b2e3bce800fba3ce9e4295129c0f6483a3b",
+  "file_size": 398518,
+  "source_version": "2.0.1",
+  "old_sha256": "d511929e10917853de455b8762693deb22aa189985d3d40863f0d4e544c820d4",
+  "new_sha256": "1277f597cd6c20fbd493658b3faa9ede1c0a8208cc8017ef8b4417cb9f7f6f68",
+  "release_date": "2026-09-17",
+  "notes": [
+    "Binary delta update from 2.0.1 to 2.0.2.",
+    "Updates the Toolkit application version to 2.0.2."
+  ]
+}
