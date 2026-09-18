@@ -1,25 +1,24 @@
 ﻿{
     "product": "EnterpriseToolkit-MultiUnit",
     "channel": "stable",
-    "version": "2.0.4",
-    "minimum_version": "2.0.3",
+    "version": "2.0.5",
+    "minimum_version": "2.0.4",
     "mandatory": false,
     "package_type": "binary-delta",
     "package_url": "https://raw.githubusercontent.com/danapster/SCC-IT-Toolkit-Updates/main/Patches/IT-Toolkit.patch",
     "file_name": "IT-Toolkit.patch",
-    "sha256": "caf88450297f2f5e30e545b5d55aa9eeaa64f44588e393d448dc13349994a620",
-    "file_size": 27250334,
-    "source_version": "2.0.3",
-    "old_sha256": "ec2e45d81fbd9343285df639f88238ba3966da9a47db959be11f8b6448ce5646",
-    "new_sha256": "ddd75b0612e923d8c37a75386d215982b0f3261284a10654d8961a41ec609d30",
+    "sha256": "137ac4be198f7216a3b332deebcf57ce23ae4a88b1c5609d3db4833e7ed9f51b",
+    "file_size": 486807,
+    "source_version": "2.0.4",
+    "old_sha256": "ddd75b0612e923d8c37a75386d215982b0f3261284a10654d8961a41ec609d30",
+    "new_sha256": "d3f71debf7af5dc275f33e9deac7e66ad12e94f316307e8009c62a6eb95294e6",
     "release_date": "2026-09-18",
     "notes": [
-        "Binary delta update from 2.0.3 to 2.0.4.",
-        "Preserves administrator configuration settings across application startup.",
-        "Prevents stale settings writers from reverting newer configuration changes.",
-        "Persists Initial Configuration completion independently of OU configuration.",
-        "Prevents duplicate Toolkit application instances.",
-        "Removes legacy site-specific MultiUnit components and Run As branding.",
-        "Improves configuration persistence and updater reliability."
+        "Adds visible startup feedback during application extraction and initialization.",
+        "Adds a clean startup splash before the Run As authentication window.",
+        "Keeps the Run As window visible while the authenticated Toolkit initializes.",
+        "Adds an interactive progress window while binary updates are applied.",
+        "Shows update verification, installation and restart progress.",
+        "Preserves SHA-256 validation and automatic rollback protection."
     ]
 }
