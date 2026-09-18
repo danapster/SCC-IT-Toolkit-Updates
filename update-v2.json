@@ -7,10 +7,10 @@
     "package_type": "binary-delta",
     "package_url": "https://raw.githubusercontent.com/danapster/SCC-IT-Toolkit-Updates/main/Patches/IT-Toolkit.patch",
     "file_name": "IT-Toolkit.patch",
-    "sha256": "fbdde0f31c9334aec92997df7c8839ba33b60c167e14b3167c969cba1e343825",
-    "file_size": 2278214,
+    "sha256": "caf88450297f2f5e30e545b5d55aa9eeaa64f44588e393d448dc13349994a620",
+    "file_size": 27250334,
     "source_version": "2.0.3",
-    "old_sha256": "257ae01483e81770edfbf0e012284af7f0028fdd31cf8289a9b1ed0f813f9aa7",
+    "old_sha256": "ec2e45d81fbd9343285df639f88238ba3966da9a47db959be11f8b6448ce5646",
     "new_sha256": "ddd75b0612e923d8c37a75386d215982b0f3261284a10654d8961a41ec609d30",
     "release_date": "2026-09-18",
     "notes": [
