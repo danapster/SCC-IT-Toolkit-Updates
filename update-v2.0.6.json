@@ -1,0 +1,21 @@
+﻿{
+    "product":  "EnterpriseToolkit-MultiUnit",
+    "channel":  "stable",
+    "version":  "2.0.6",
+    "minimum_version":  "2.0.5",
+    "mandatory":  false,
+    "package_type":  "binary-delta",
+    "package_url":  "https://raw.githubusercontent.com/danapster/SCC-IT-Toolkit-Updates/main/Patches/IT-Toolkit-v2.0.5-to-v2.0.6.patch",
+    "file_name":  "IT-Toolkit-v2.0.5-to-v2.0.6.patch",
+    "sha256":  "af182c62f6399496e5a89312f2c9a7c57e284a1b3351db77378ad73b72ac6056",
+    "file_size":  435387,
+    "source_version":  "2.0.5",
+    "old_sha256":  "d3f71debf7af5dc275f33e9deac7e66ad12e94f316307e8009c62a6eb95294e6",
+    "new_sha256":  "1ac1bade30a57157c8caf7de5d9b4ae7b72e4c533e7007057c9ba3a8d3d9de36",
+    "release_date":  "2026-09-19",
+    "notes":  [
+                  "Adds the finalized startup splash and initialization experience.",
+                  "Fixes Exchange mailbox disabling without deleting the associated Active Directory user.",
+                  "Preserves the existing Toolkit configuration and binary update workflow."
+              ]
+}
