@@ -1,0 +1,21 @@
+{
+    "product":  "EnterpriseToolkit-MultiUnit",
+    "channel":  "stable",
+    "version":  "2.0.7",
+    "minimum_version":  "2.0.6",
+    "mandatory":  false,
+    "package_type":  "binary-delta",
+    "package_url":  "https://raw.githubusercontent.com/danapster/SCC-IT-Toolkit-Updates/main/Patches/IT-Toolkit-v2.0.6-to-v2.0.7.patch",
+    "file_name":  "IT-Toolkit-v2.0.6-to-v2.0.7.patch",
+    "sha256":  "848e0a2d1d5a245f233756d62a550711f2f1a0167a2af5c8235798e44b553fab",
+    "file_size":  420727,
+    "source_version":  "2.0.6",
+    "old_sha256":  "1ac1bade30a57157c8caf7de5d9b4ae7b72e4c533e7007057c9ba3a8d3d9de36",
+    "new_sha256":  "cc7a7f3b6aded5abc0eaa4419676413787bd27c902d0dbe3bddc2cd1ad8c7b8a",
+    "release_date":  "2026-09-19",
+    "notes":  [
+                  "Updates the Toolkit version to v2.0.7.",
+                  "Tests binary patch installation through the Toolkit\u0027s built-in updater.",
+                  "Uses the authenticated ADM account\u0027s Local Temp directory for update downloads."
+              ]
+}
