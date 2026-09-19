@@ -1,0 +1,19 @@
+﻿{
+    "product":  "EnterpriseToolkit-MultiUnit",
+    "channel":  "handoff-test",
+    "version":  "2.0.8",
+    "minimum_version":  "2.0.7",
+    "mandatory":  false,
+    "package_type":  "binary-delta",
+    "package_url":  "https://raw.githubusercontent.com/danapster/SCC-IT-Toolkit-Updates/main/Patches/IT-Toolkit-v2.0.7-to-v2.0.8-handoff-test.patch",
+    "file_name":  "IT-Toolkit-v2.0.7-to-v2.0.8-handoff-test.patch",
+    "sha256":  "fdf8585ff5e41f29206da2a699cf4740469642cd0c7b7cdc730cc820e5d955f2",
+    "file_size":  405121,
+    "source_version":  "2.0.7",
+    "old_sha256":  "92ba4261f6ba55491305f448a6e2562a4b6774f39ab4fef5073a14bdb7afad3c",
+    "new_sha256":  "adaecbdd2a44cf696d42c853e311ea1e36cd990ef63fc8db6eee3dc2778f7000",
+    "release_notes":  [
+                          "Isolated test of the Toolkit-to-updater progress-window handoff.",
+                          "Verifies binary patch installation and application restart."
+                      ]
+}
