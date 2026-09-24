@@ -1,0 +1,21 @@
+{
+    "product":  "EnterpriseToolkit-MultiUnit",
+    "channel":  "stable",
+    "version":  "2.0.8",
+    "minimum_version":  "2.0.7",
+    "mandatory":  false,
+    "package_type":  "binary-delta",
+    "package_url":  "https://raw.githubusercontent.com/danapster/SCC-IT-Toolkit-Updates/main/Patches/IT-Toolkit-v2.0.7-to-v2.0.8.patch",
+    "file_name":  "IT-Toolkit-v2.0.7-to-v2.0.8.patch",
+    "sha256":  "8067849ddd7643e4fdf82b47e827c1c0606bf12c56cb1dd67806eb4737e2640e",
+    "file_size":  413218,
+    "source_version":  "2.0.7",
+    "old_sha256":  "cc7a7f3b6aded5abc0eaa4419676413787bd27c902d0dbe3bddc2cd1ad8c7b8a",
+    "new_sha256":  "adaecbdd2a44cf696d42c853e311ea1e36cd990ef63fc8db6eee3dc2778f7000",
+    "release_date":  "2026-09-24",
+    "release_notes":  [
+                          "Updates the Toolkit from v2.0.7 to v2.0.8.",
+                          "Includes the verified external updater progress-window handoff.",
+                          "Installs a SHA-256-verified binary patch."
+                      ]
+}
